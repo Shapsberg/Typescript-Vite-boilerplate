@@ -7,8 +7,8 @@
     
     /* Modules */
     "module": "es2015",
-    "rootDir": "./src",
-    "outDir": "./dist/_app",
+    "rootDir": "./src", // location of ts
+    "outDir": "./dist/_app", // location of ts deployment
     "removeComments": true,
     
     /* Interop Constraints */

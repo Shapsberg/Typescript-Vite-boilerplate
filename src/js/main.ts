@@ -1,7 +1,5 @@
-import header from "./modules/header.js";
-import footer from "./modules/footer.js";
+import learning from "./modules/learning.js";
 
 console.log('main ts')
 
-header();
-footer();
+learning();
