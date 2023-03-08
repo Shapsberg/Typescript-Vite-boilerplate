@@ -24,4 +24,43 @@ export default function learning() {
     let data;
     let results = data;
     results = 'text';
+    let persons = [
+        'adrian',
+        'brage',
+        'krage',
+        'drage'
+    ];
+    let newPersons = [];
+    newPersons.push('hei');
+    newPersons.push(true);
+    console.log(newPersons);
+    let newPersons2 = [];
+    newPersons2.push(true);
+    newPersons2.push('hello');
+    console.log(newPersons2);
+    let animal = {
+        name: 'Doug',
+        type: 'Dog',
+        age: 2
+    };
+    animal.name = 'Dawg';
+    let person;
+    person = {
+        firstName: 'Otto',
+        lastName: 'Bergman',
+        age: 27,
+        isLogged: true,
+        skills: [
+            'football',
+            'sleeping',
+            'eating'
+        ]
+    };
+    function display(isPerson, name) {
+        console.log(isPerson.lastName);
+    }
+    const containerElement = document.querySelector('#container');
+    containerElement.textContent = 'hei';
+    const inputElement = document.getElementById('name');
+    const allInputElements = document.querySelectorAll('input');
 }
